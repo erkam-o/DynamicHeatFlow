@@ -10,7 +10,7 @@
 def CrankNicolson():
     e[0] = 0
     f[0] = Temp[0]
-    for i in range (1, n-1, 1): # n-1 because string has to run until i=19
+    for i in range (1, n-1, 1):
         r = Lambda[i]*dTime / (Wkap[i]*Rho[i]*x[i]*x[i])
         K1 = Lambda[i-1]*x[i] / (Lambda[i]*x[i-1])
         K2 = Lambda[i]*x[i+1] / (Lambda[i+1]*x[i])
@@ -23,7 +23,7 @@ def CrankNicolson():
 
 # Thomas algorithm
 def ThomasAlgorithm():
-    for i in range (n-2, 0, -1): # n-1 because string has to start i=18
+    for i in range (n-2, 0, -1):
         Temp[i] = (e[i]*Temp[i+1]) + f[i]
 
 # Definitions
@@ -44,11 +44,11 @@ Wkap = arr.empty(n)
 
 dTime = 60.00 # s, duration of the time steps
 
-for i in range (0, n, 1): # string stops at i=n-1
+for i in range (0, n, 1): # string stops at i=[n-1]
     x[i] = 0.010 # thickness of each element
     Lambda[i] = 0.160 # thermal conductivity (W/m/K)
     Rho[i] = 550  # density (kg/m3)
-    Wkap[i] = 1000 # heat capacity (oule/m3)
+    Wkap[i] = 1000 # heat capacity (Joule/m3)
     Temp[i] = 20 #°C, primary definition
 
 # Main run
