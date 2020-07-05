@@ -1,5 +1,6 @@
 # DynamicHeatFlow
 Calculation of Dynamic Heat Flow in Walls
+
 Engin Bagda, Milan Dlabal, Erkam Talha Öztürk
 
 Assessment of the energy balance of buildings depends on estimations of the temperature driven dynamic heat flow through walls between inside and outside. ISO 13790:2008-03-01 “Energy performance of buildings – Calculation of energy use for space heating and cooling” mentions different methods to calculate the dynamic heat transfer in walls at hourly changing temperatures.
