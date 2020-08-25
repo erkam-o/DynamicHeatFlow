@@ -15,7 +15,7 @@ The Python code CRANK_02.py (version 2020.07.05) is an example to calculate the 
 The output command prints the temperatures in the first and last 4 elements i[0], i[1], i[2], i[3], i[16], i[17], i[18], i[19] and the heat flows between the elements i[0]-i[1], i[1]-i[2], i[2]- i[3], i[3]-i[4], i[20]-i[21], i[21]-i[22], i[22]-i[23] and i[23]-i[24].
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Calculation of convection induced dynamic heat flow in walls
+Calculation of Convection Induced Dynamic Heat Flow in Walls
 
 Full report of the program can be found here.
 
